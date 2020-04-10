@@ -3,14 +3,7 @@
 rm(list=ls(all=TRUE))
 
 library(data.table)
-library(ggplot2)
-library(viridis)
 library(reshape2)
-
-# set your working directory
-setwd("C:/Users/jmaburto.SAM/Documents/GitHub/HLI-Permanyer-Kashnitsky/")
-
-#source("1_GetHMDData.R") # Just in case you want updated HMD Data
 
 # Loading data
 load("Data/HMD_Data.RData")

@@ -6,14 +6,13 @@ library(HMDHFDplus)
 library(data.table)
 
 # Set working directory
-setwd("C:/Users/jmaburto.SAM/Documents/GitHub/HLI-Permanyer-Kashnitsky/")
 
 # get all countries in HMD
 XYZ <- getHMDcountries()
 # set your username for HMD
-us <- "jmaburto@colmex.mx"
+us <- "...@colmex.mx"
 # set your password
-pw <- "kolmogorov"
+pw <- "...ov"
 
 # get all the lifetables available from HMD
 HMDL <- do.call(rbind,lapply(XYZ, function(x, us, pw){

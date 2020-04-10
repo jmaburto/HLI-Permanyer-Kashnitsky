@@ -8,12 +8,11 @@ library(viridis)
 library(reshape2)
 
 # set your working directory
-setwd("C:/Users/jmaburto.SAM/Documents/GitHub/HLI-Permanyer-Kashnitsky/")
 
 #source("1_GetHMDData.R") # Just in case you want updatedM HD Data
 
 # Loading results
-#source('R/2_HLI.R')
+#source('R/2_Results_HLI.R')
 load('Data/Results_HLI.RData')
 HLI_Decomp[,Dif.H := H2-H1]
 HLI_Decomp[,Year := year.1]
